@@ -1,0 +1,68 @@
+.contacto {
+    display: flex;
+    gap: 24px;
+   
+}
+
+.contacto div {
+    width: 100%;
+   
+}
+
+.datos p {
+    font-size: 14px;
+    flex-direction: column;
+    color: #d6eadf;
+    font-style: oblique;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.datos ul li {
+    font-size: 13px;
+}
+
+.formulario p {
+    display: flex;
+    
+}
+
+.formulario p label {
+    min-width: 80px;
+}
+.formulario p label {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 204, 203);
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type="submit"] {
+    background: #6da9ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #2e64a1;
+}
+.formulario input[type="submit"]:hover {
+    background-color: #2e64a1;
+}
+
+li {
+    color: rgb(255, 204, 203);
+}

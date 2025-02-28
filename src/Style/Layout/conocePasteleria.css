@@ -1,0 +1,37 @@
+.historia p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.letras{
+    color:#befbe2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+}
+.cosas img {
+    width: 300px;
+    height: 300px;
+}
+.todo{
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and  (max-width: 400px){
+    .todo{
+        display: flex;
+        flex-direction: column;
+    }
+    .historia {
+        font-size: 20px;
+        font-family: "Sofia", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+}
