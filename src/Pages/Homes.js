@@ -24,14 +24,7 @@ const Homes = (props) => {
                             </p2>
                         </div>
                     </section>
-                    <section class="testimonios">
-                        <h2>Testimonios</h2>
-                        <div class="testimonio">
-                            <span class="cita">Simplemente excelente</span>
-                            <span class="autor">Juan Gomez -zapatos.com</span>
-                        </div>
-
-                    </section>
+                    
                 </div>
             </main>
         </>

@@ -8,8 +8,9 @@ const Contacto = (props) => {
             <main class="holder contacto">
 
                 <div class="form">
-                    <h2>contacto rapido</h2>
+                    <h3 class="conta">contacto rapido</h3>
                     <form action="" method="" class="formulario">
+                        
                         <p>
                             <label for="nombre">nombre</label>
                             <input type="text" name=""></input>
@@ -26,6 +27,7 @@ const Contacto = (props) => {
                             <label for="mensaje">mensaje</label>
                             <textarea name=""></textarea>
                         </p>
+                     
                         <p>
 
                             <input type="submit" value="enviar"></input>
@@ -33,14 +35,14 @@ const Contacto = (props) => {
                     </form>
                 </div>
                 <div class="datos">
-                    <h2>Otras vias de comunicacion</h2>
-                    <p>tambien puede conectarse con nosotros usando los siguientes medios</p>
-                    <ul>
-                        <li> telefono 2613449520</li>
-                        <li>email:yamilanatalihinojosa@gmail.com</li>
-                        <li>facebook</li>
-                        <li>x</li>
-                        <li>instagram</li>
+                    
+                    <h3>tambien puede conectarse con nosotros usando los siguientes medios</h3>
+                    <ul >
+                        <div>telefono 2613449520</div>
+                        <div>email:yamilanatalihinojosa@gmail.com</div>
+                        <div>facebook</div>
+                        <div>x</div>
+                        <div>instagram</div>
                     </ul>
                 </div>
 

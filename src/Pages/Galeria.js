@@ -17,7 +17,8 @@ const Galeria=(props)=>{
             <img src="img/IMG-20241229-WA0009.jpg" alt="nueve"></img>
             <img src="img/IMG-20241229-WA0010.jpg" alt="diez"></img>
             <img src="img/IMG-20241229-WA0011.jpg" alt="once"></img>
-            <img src="img/IMG-20241229-WA0012.jpg" alt="doce"></img>
+            <img src="img/tortita.jpg" alt="doce"></img>
+            <video src="img/MI PASTELERIA.mp4" controls></video>
 
         </div>
     </main>
